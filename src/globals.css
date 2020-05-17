@@ -1,0 +1,29 @@
+body {
+    font-family: Helvetica;
+}
+
+h2 {
+    margin-top: 1%;
+}
+li {
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 58px;
+}
+
+h3 {
+    margin-top: 5%;
+    font-weight: bold; 
+}
+
+ul {
+    margin-left: 4%;
+}
+
+hr {
+    height: 2px;
+    color: grey;
+    background-color: grey;
+}
