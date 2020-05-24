@@ -9,13 +9,30 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./src/index.html"
         }),
+        new HtmlWebpackPlugin({
+            filename: "svg.html",
+            template: "./src/svg.html"
+        }),
         new CleanWebpackPlugin()
     ],
     module: {
         rules: [
             {
                 test: /\.css$/,
-                use: ["style-loader", "css-loader"]
+                use: [
+                    "style-loader", 
+                    {loader: "css-loader", options: { importLoaders: 1 }},
+                    {
+                        loader: "postcss-loader",
+                        options: {
+                            ident: 'postcss',
+                            plugins: [
+                                require('tailwindcss'),
+                                require('autoprefixer')
+                            ]
+                        }
+                    }
+                ]
             }
         ],
     },

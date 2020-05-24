@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+    The below styles were put here for prototyping purposes.
+    These styles will be moved into a tailwind.config.js file
+    once the config file is setup
+*/
+
+html, body, section{
+    overflow: initial !important;
+}
+
+.min-w-80 {
+    min-width: 80px;
+}
+
+.max-w-80 {
+    max-width: 80px;
+}
+
+.right-40 {
+    right: 40px;
+}
+
+.right-100 {
+    right: 100px;
+}
+
+.min-h-120 {
+    min-height: 120px;
+}
+
+.left-n-40 {
+    left: -40px;
+}
+
+@media (min-width: 768px) {
+    .top-half {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .offset-left {
+        transform: translateX(-50%);
+    }
+}
+
+.left-20 {
+    left: 20px;
+}
+
+.w-half {
+    width: 25%;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.height-4200 {
+    min-height: 4200px;
+}
