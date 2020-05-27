@@ -1,5 +1,5 @@
 import html2pdf from 'html2pdf.js'
-import './svg.css'
+import './index.css'
 
 
 /*

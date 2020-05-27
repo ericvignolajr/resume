@@ -9,10 +9,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./src/index.html"
         }),
-        new HtmlWebpackPlugin({
-            filename: "svg.html",
-            template: "./src/svg.html"
-        }),
         new CleanWebpackPlugin()
     ],
     module: {
