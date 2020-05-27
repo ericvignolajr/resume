@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient6427">
+      <stop
+         id="stop6423"
+         offset="0"
+         style="stop-color:#fefcbf;stop-opacity:1;" />
+      <stop
+         id="stop6425"
+         offset="1"
+         style="stop-color:#fefcbf;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="163.64999"
+       x2="1.0583333"
+       y1="294.88333"
+       x1="133.87917"
+       id="linearGradient6429"
+       xlink:href="#linearGradient6427" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-161.53332)"
+     id="layer1">
+    <circle
+       style="opacity:1;fill:url(#linearGradient6429);fill-opacity:1;stroke:#000000;stroke-width:0.92604166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle1633"
+       cx="67.73333"
+       cy="229.26665"
+       r="67.294258" />
+    <path
+       id="path6441"
+       transform="matrix(0.26458333,0,0,0.26458333,0,161.53332)"
+       d="M 492.14648 229.1582 L 16.21875 230.71875 L 292.9082 507.4082 A 254.3405 254.3405 0 0 0 510.33984 256 A 254.3405 254.3405 0 0 0 510.02344 247.03516 L 492.14648 229.1582 z "
+       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.19" />
+    <rect
+       ry="0.59653443"
+       y="221.35393"
+       x="109.4431"
+       height="27.241739"
+       width="2.5225084"
+       id="rect6401"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.51112002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.31066048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 6.4135238,221.26319 63.708127,203.81818 c 1.970842,-0.60008 5.144124,-0.60008 7.114979,0 l 57.294594,17.44501 c 1.97085,0.60008 1.97085,1.5663 0,2.16637 l -57.294594,17.44501 c -1.970868,0.60009 -5.144151,0.60009 -7.114993,0 L 6.4135097,223.42956 c -1.9708415,-0.60007 -1.9708415,-1.56629 1.41e-5,-2.16637 z"
+       id="rect6267" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.18328059;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 67.850661,219.47866 A 32.923113,32.923113 0 0 0 35.07805,249.39617 h 65.53092 A 32.923113,32.923113 0 0 0 67.850661,219.47866 Z"
+       id="path6265" />
+    <g
+       transform="matrix(1.38801,0,0,1.38801,142.28728,-261.17258)"
+       id="g6413">
+      <circle
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path6403"
+         cx="-22.621874"
+         cy="366.98227"
+         r="1.190625" />
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -22.555729,367.37915 a 3.3734375,3.3734375 0 0 0 -3.373437,3.37344 3.3734375,3.3734375 0 0 0 0.196887,1.12448 h 6.352584 a 3.3734375,3.3734375 0 0 0 0.197404,-1.12448 3.3734375,3.3734375 0 0 0 -3.373438,-3.37344 z"
+         id="path6405" />
+    </g>
+  </g>
+</svg>

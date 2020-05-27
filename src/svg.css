@@ -39,7 +39,6 @@ html, body, section{
 @media (min-width: 768px) {
     .top-half {
         top: 50%;
-        transform: translateY(-50%);
     }
 
     .offset-left {

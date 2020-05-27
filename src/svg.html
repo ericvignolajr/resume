@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVG</title>
+    <title>Vignola Resume</title>
 </head>
-    <body class="">
+    <body class="box-border">
         <div class="flex min-h-screen h-full">
             <nav id="main-sidebar" class="min-w-80 max-w-80 rounded shadow-md hidden md:block">                    
             </nav>
@@ -15,27 +15,119 @@
                     flex-col 
                     w-full">
                 <section class="
-                    height-4200
-                    flex-1
+                    contact-info
                     relative
                     rounded
-                    shadow-md">
+                    shadow-md
+                    py-2
+                    bg-blue-200">                    
                         <img 
-                            src="../assets/track.svg" 
-                            alt="A musical record"
-                            class="sticky top-0 offset-left max-w-80">                    
-                        <h1 class="">Eric Vignola</h1>
-                        <ul>
-                            <li>Washington DC</li>
-                            <li>Email: ericvignolajr@gmail.com</li>
-                            <li>Cell Phone: 856-885-0612</li>
-                        </ul>
+                            src="../assets/contactLogo.svg" 
+                            alt="A smartphone logo"
+                            class="sticky top-0 offset-left float-left max-w-80 md:mx-0">
+                        <div class="block p-4 md:flex md:justify-center md:items-center">
+                            <h2 class="bg-white leading-none text-center rounded shadow-md md:text-justify ml-24 my-2 md:p-2 md:mx-2 min-w-full md:max-w-md text-4xl">Eric Vignola</h2>
+                            <ul class="bg-white leading-tight text-center rounded shadow-md md:text-justify ml-24 my-2 md:p-2 md:mx-2 min-w-full md:max-w-md">
+                                <li class="font-semibold my-4 md:my-0 md:leading-relaxed text-md"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Email:</span> ericvignolajr@gmail.com</li>
+                                <li class="font-semibold my-4 md:my-0 md:leading-relaxed text-md"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Phone:</span> 856-885-0612</li>
+                                <li class="font-semibold my-4 md:my-0 md:leading-relaxed text-md"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Location:</span> Washington DC</li>
+                                <li class="font-semibold my-4 md:my-0 md:leading-relaxed text-md"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">LinkedIn:</span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ebvignola/"> Click Here!</a></li>
+                            </ul>                        
+                        </div>
                 </section>
-                <section class="flex-1 flex-shrink-0 rounded shadow-md">
-                    <h1>Experience</h1>
+                <section class="
+                    skills
+                    relative
+                    rounded
+                    shadow-md
+                    py-2
+                    bg-purple-200">
+                        <img 
+                        src="../assets/languagesLogo.svg" 
+                        alt="A smartphone logo"
+                        class="sticky top-0 offset-left float-left max-w-80 md:mx-0">
+                        <div class="block p-4 md:flex md:flex-col md:flex-wrap md:justify-center md:items-center">
+                            <div class="p-4 md:p-0 md:flex md:flex-wrap">
+                                <h2 class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-2xl">Languages:</h2>
+                                <p class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-xl">Javascript</p>
+                                <p class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-xl">HTML</p>
+                                <p class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-xl">CSS</p>
+                                <p class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-xl">C#</p>
+                            </div>
+                            <div class="p-4 md:p-0 md:flex md:flex-wrap">
+                                <h2 class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-2xl">Technologies:</h2>
+                                <p class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-xl">Node.js</p>
+                                <p class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-xl">React</p>
+                                <p class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-xl">Webpack</p>
+                                <p class="bg-white leading-none text-center rounded shadow-md md:self-center ml-24 my-2 md:p-2 md:mx-2 text-xl">Docker</p>
+                            </div>
+                        </div>
                 </section>
-                <section class="height-4200 flex-1 rounded shadow-md">
-                    <h1>Interests</h1>
+                <section class="
+                    experience
+                    relative
+                    rounded
+                    shadow-md
+                    py-2
+                    bg-green-200">
+                        <img 
+                        src="../assets/workLogo.svg" 
+                        alt="A smartphone logo"
+                        class="sticky top-0 offset-left float-left max-w-80 md:mx-0">
+                        <div class="block p-4 md:flex md:justify-center md:items-center md:flex-col">
+                            <h2 class="bg-white leading-none text-center rounded shadow-md md:text-justify ml-24 my-2 md:p-2 md:mx-2 min-w-full md:max-w-md text-2xl">Experience:</h2>
+                            <div class="md:w-full bg-white rounded shadow-md ml-24 my-2 md:mx-2 md:py-6 md:px-4">
+                                <h3 class="my-4 md:my-0 pt-2 px-4"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Organization:</span> Council of The Great City Schools</h3>
+                                <p class="my-4 md:my-0 px-4"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Position:</span> Manager of Software Engineering <span class="block md:inline">(Feb 2018-Present)</span></p>
+                                <p class="my-4 md:my-0 py-2 px-4 block md:inline uppercase text-xs text-gray-600 tracking-wide">Contributions:</p>
+                                <p class="my-4 md:my-0 py-2 px-6 text-gray-900"><span class="uppercase text-xs text-gray-600 tracking-wide">-</span> Reduced data analysis time for annual report from ~3 weeks to 5 minutes by designing and developing a C# application to aggregate and clean data.</p>
+                                <p class="my-4 md:my-0 py-2 px-6 text-gray-900"><span class="uppercase text-xs text-gray-600 tracking-wide">-</span> The annual KPI report data visualizations are now made using the data file created by my C# data cleaning program.</p>
+                                <p class="my-4 md:my-0 py-2 px-6 text-gray-900"><span class="uppercase text-xs text-gray-600 tracking-wide">-</span> Improved communication between Council members by securing and adminstrating a private social media network.</p>
+                            </div>
+                            <div class="md:w-full bg-white rounded shadow-md ml-24 my-2 md:mx-2 md:py-6 md:px-4">
+                                <h3 class="my-4 md:my-0 pt-2 px-4"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Organization:</span> American University</h3>
+                                <p class="my-4 md:my-0 px-4"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Position:</span> Undergraduate Researcher <span class="block md:inline">(May 2016 - Sept 2016)</span></p>
+                                <p class="my-4 md:my-0 px-4 block md:inline uppercase text-xs text-gray-600 tracking-wide">Contributions:</p>
+                                <p class="my-4 md:my-0 py-2 px-6 text-gray-900"><span class="uppercase text-xs text-gray-600 tracking-wide">-</span> Awarded $12,000 grant to create an authoring tool for artificial intelligence. The team consisted of 3 students and 2 supervising professors.</p>
+                                <p class="my-4 md:my-0 py-2 px-6 text-gray-900"><span class="uppercase text-xs text-gray-600 tracking-wide">-</span> Implemented a full desktop application for visualizing data from an artificial intelligence system using Electron, Aurelia, Grunt, and D3.js.</p>
+                            </div>
+                            <div class="md:w-full bg-white rounded shadow-md ml-24 my-2 md:mx-2 md:py-6 md:px-4">
+                                <h3 class="my-4 md:my-0 pt-2 px-4"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Organization:</span> American University Game Lab</h3>
+                                <p class="my-4 md:my-0 px-4"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Position:</span> Web Developer <span class="block md:inline">(May 2016 - Sept 2016)</span></p>
+                                <p class="my-4 md:my-0 px-4 block md:inline uppercase text-xs text-gray-600 tracking-wide">Contributions:</p>
+                                <p class="my-4 md:my-0 py-2 px-6 text-gray-900"><span class="uppercase text-xs text-gray-600 tracking-wide">-</span> Worked on a team of 3 other students and developed an official mobile game for the Smithsonian American Art Museum.</p>
+                                <p class="my-4 md:my-0 py-2 px-6 text-gray-900"><span class="uppercase text-xs text-gray-600 tracking-wide">-</span> The team and I designed and implemented all 27 modules for the project.</p>
+                            </div>
+                            <div class="md:w-full bg-white rounded shadow-md ml-24 my-2 md:mx-2 md:py-6 md:px-4">
+                                <h3 class="my-4 md:my-0 pt-2 px-4"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Organization:</span> AUx</h3>
+                                <p class="my-4 md:my-0 px-4"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Position:</span> Peer Leader <span class="block md:inline">(May 2016 - Sept 2016)</span></p>
+                                <p class="my-4 md:my-0 px-4 block md:inline uppercase text-xs text-gray-600 tracking-wide">Contributions:</p>
+                                <p class="my-4 md:my-0 py-2 px-6 text-gray-900"><span class="uppercase text-xs text-gray-600 tracking-wide">-</span> Helped develop a curriculum for 64 students on diversity and inclusion by advising on the use of video games in the classroom.</p>
+                                <p class="my-4 md:my-0 py-2 px-6 text-gray-900"><span class="uppercase text-xs text-gray-600 tracking-wide">-</span> Developed a video game in unity exploring biracial identity that students played and discussed in class.</p>
+                            </div>
+                        </div>
+                </section>
+                <section class="
+                    skills
+                    relative
+                    rounded
+                    shadow-md
+                    py-2
+                    bg-yellow-200">
+                    <img 
+                    src="../assets/educationLogo.svg" 
+                    alt="A smartphone logo"
+                    class="sticky top-0 offset-left float-left max-w-80 md:mx-0">
+                    <div class="block p-4 md:flex md:justify-center md:items-center">
+                        <h2 class="bg-white leading-none text-center rounded shadow-md md:text-justify ml-24 my-2 md:p-2 md:mx-2 min-w-full md:max-w-md text-2xl">Education:</h2>
+                        <ul class="bg-white leading-tight text-center rounded shadow-md md:text-justify ml-24 my-2 md:p-2 md:mx-2 min-w-full md:max-w-md">
+                            <li class="font-semibold my-4 md:my-0 md:leading-relaxed text-md"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">University:</span> American University</li>
+                            <li class="font-semibold my-4 md:my-0 md:leading-relaxed text-md"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Degree:</span> Bachelor of Computer Science</li>
+                            <li class="font-semibold my-4 md:my-0 md:leading-relaxed text-md"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Gpa:</span> 3.81/4.0</li>
+                            <li class="font-semibold my-4 md:my-0 md:leading-relaxed text-md"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Location:</span> Washington DC</li>
+                            <li class="font-semibold my-4 md:my-0 md:leading-relaxed text-md"><span class="block md:inline uppercase text-xs text-gray-600 tracking-wide">Years:</span> (Fall 2013 - May 2017) </li>
+                        </ul>                        
+                    </div>
                 </section>
             </section>
         </div>
