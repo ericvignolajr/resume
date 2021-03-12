@@ -18,7 +18,7 @@
   "homepage": "https://github.com/ericvignolajr/resume#readme",
   "dependencies": {
     "html2pdf.js": "^0.9.2",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
